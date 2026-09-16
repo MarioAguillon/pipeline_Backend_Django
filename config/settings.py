@@ -125,3 +125,8 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+
+# ============================================
+# CI/CD pipiline Validations test taller 8
+# ============================================
