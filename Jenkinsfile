@@ -18,8 +18,8 @@ pipeline {
             steps {
                 echo 'Ejecutando la suite de pruebas del Backend en Django...'
                 sh '''
-                    echo "Validando archivos del proyecto..."
-                    ls -la
+                    echo "ERROR: Fallo intencional en las pruebas unitarias de Django."
+                    exit 1
                 '''
             }
         }
